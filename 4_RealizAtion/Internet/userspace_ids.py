@@ -4,7 +4,7 @@ from pandas import DataFrame
 from scapy.all import *
 import sys
 
-if len(sys.argv)<2:
+if len(sys.argv) < 2:
     print("[Error] Incomplete line command.")
     print("------------------------------------")
     print("Usage: {0} model_name".format(sys.argv[0]))
